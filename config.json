@@ -60,7 +60,7 @@
     "logo": "/public/images/1780736974101-gudangweb-logo.png",
     "logoAlt": "GudangWeb",
     "favicon": "/public/images/1780736974101-gudangweb-logo.png",
-    "showSiteTitle": false
+    "showSiteTitle": true
   },
   "theme": {
     "primaryColor": "#155eef",
