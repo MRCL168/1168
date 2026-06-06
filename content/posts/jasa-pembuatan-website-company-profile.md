@@ -7,7 +7,8 @@ category: Website
 author: GudangWeb
 tags: ["website", "company profile", "bisnis"]
 excerpt: Website company profile membantu bisnis terlihat lebih kredibel, mudah dihubungi, dan memiliki pusat informasi resmi yang dapat dikembangkan untuk SEO.
-featured_image: ""
+featured_image: /public/images/1780738287794-jasa-pembuatan-website-profesional-di-tangerang.jpg
+featured_image_alt: Jasa pembuatan website profesional di tangerang
 faq_title: FAQ Artikel
 faq_description: Pertanyaan umum terkait topik artikel ini.
 faq: ["Apa manfaat utama website company profile? | Website company profile membantu bisnis terlihat lebih profesional, menyediakan informasi resmi, dan memudahkan calon pelanggan menghubungi perusahaan.", "Apakah website company profile bisa dikembangkan untuk SEO? | Bisa. Halaman layanan, artikel blog, internal link, dan struktur heading dapat dikembangkan agar website lebih siap bersaing di Google.", "Apakah konten website bisa diedit sendiri? | Bisa. Dengan CMS berbasis GitHub, konten halaman dan artikel dapat diedit dari panel admin tanpa perlu mengubah kode template."]
