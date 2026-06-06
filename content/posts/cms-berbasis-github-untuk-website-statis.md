@@ -7,7 +7,7 @@ category: CMS
 author: GudangWeb
 tags: ["cms", "github", "static site"]
 excerpt: CMS berbasis GitHub memungkinkan konten website disimpan sebagai file di repository, dibangun otomatis, dan tetap mudah diedit melalui panel admin.
-featured_image: /public/images/1780739367011-cms-berbasis-github-untuk-website-statis-yang-cepat-dan-ringan.jpg
+featured_image: /public/images/1780741581188-cms-berbasis-github.jpg
 featured_image_alt: Cms berbasis github untuk website statis yang cepat dan ringan
 faq_title: FAQ Artikel
 faq_description: Pertanyaan umum terkait topik artikel ini.
