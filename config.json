@@ -57,9 +57,9 @@
   ],
   "footerText": "Website company profile berbasis GitHub CMS.",
   "branding": {
-    "logo": "/public/images/gudangweb-logo.svg",
+    "logo": "/public/images/1780736974101-gudangweb-logo.png",
     "logoAlt": "GudangWeb",
-    "favicon": "/public/images/gudangweb-favicon.svg",
+    "favicon": "/public/images/1780736974101-gudangweb-logo.png",
     "showSiteTitle": false
   },
   "theme": {
