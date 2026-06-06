@@ -7,7 +7,8 @@ category: SEO
 author: GudangWeb
 tags: ["seo", "leads", "digital marketing"]
 excerpt: SEO membantu website bisnis muncul di pencarian yang relevan sehingga calon pelanggan bisa menemukan layanan Anda saat mereka sedang membutuhkan solusi.
-featured_image: ""
+featured_image: /public/images/1780739144686-kenapa-bisnis-membutuhkan-seo-website-untuk-mendatangkan-leads.jpg
+featured_image_alt: Kenapa bisnis membutuhkan seo website untuk mendatangkan leads
 faq_title: FAQ Artikel
 faq_description: Pertanyaan umum terkait topik artikel ini.
 faq: ["Mengapa SEO penting untuk bisnis jasa? | SEO membantu website muncul saat calon pelanggan mencari layanan yang relevan sehingga peluang mendapatkan leads menjadi lebih besar.", "Apakah SEO hanya tentang memasukkan keyword? | Tidak. SEO juga mencakup struktur halaman, kualitas konten, kecepatan website, internal link, pengalaman pengguna, dan kejelasan penawaran.", "Apakah blog membantu SEO website? | Ya. Blog dapat menjawab pertanyaan calon pelanggan dan memperkuat topical authority website pada topik layanan tertentu."]
