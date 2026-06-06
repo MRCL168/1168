@@ -7,7 +7,7 @@ category: Website
 author: GudangWeb
 tags: ["website", "company profile", "bisnis"]
 excerpt: Website company profile membantu bisnis terlihat lebih kredibel, mudah dihubungi, dan memiliki pusat informasi resmi yang dapat dikembangkan untuk SEO.
-featured_image: /public/images/1780738287794-jasa-pembuatan-website-profesional-di-tangerang.jpg
+featured_image: /public/images/1780738902338-jasa-pembuatan-website-company-profile-untuk-bisnis-profesional.jpg
 featured_image_alt: Jasa pembuatan website profesional di tangerang
 faq_title: FAQ Artikel
 faq_description: Pertanyaan umum terkait topik artikel ini.
