@@ -4,25 +4,27 @@
   "description": "GudangWeb adalah jasa pembuatan website, company profile, landing page, toko online, CMS berbasis GitHub, dan SEO untuk bisnis yang ingin tampil profesional di internet.",
   "author": "GudangWeb",
   "language": "id",
-  "baseUrl": "https://www.gudangweb.com",
+  "baseUrl": "https://git-compro.akularis.com",
   "basePath": "",
   "postsPerPage": 6,
   "defaultOgImage": "",
   "social": {
-    "twitter": "",
-    "github": "",
-    "instagram": "",
-    "linkedin": "",
+    "twitter": "https://x.com",
+    "github": "https://github.com",
+    "instagram": "https://instagram.com",
+    "linkedin": "https://linkedin.com",
     "email": "admin@gudangweb.com"
   },
   "nav": [
     {
       "label": "Beranda",
-      "url": "/"
+      "url": "/",
+      "children": []
     },
     {
       "label": "Tentang Kami",
-      "url": "/tentang-kami/"
+      "url": "/tentang-kami/",
+      "children": []
     },
     {
       "label": "Layanan",
@@ -44,11 +46,13 @@
     },
     {
       "label": "Blog",
-      "url": "/blog/"
+      "url": "/blog/",
+      "children": []
     },
     {
       "label": "Kontak",
-      "url": "/kontak/"
+      "url": "/kontak/",
+      "children": []
     }
   ],
   "footerText": "Website company profile berbasis GitHub CMS.",
@@ -56,7 +60,7 @@
     "logo": "/public/images/gudangweb-logo.svg",
     "logoAlt": "GudangWeb",
     "favicon": "/public/images/gudangweb-favicon.svg",
-    "showSiteTitle": true
+    "showSiteTitle": false
   },
   "theme": {
     "primaryColor": "#155eef",
