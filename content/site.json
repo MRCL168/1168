@@ -106,7 +106,7 @@
       "title": "Partner pembuatan website dan SEO untuk bisnis yang ingin tumbuh secara digital.",
       "subtitle": "Kami membantu bisnis memiliki website yang rapi, informatif, dan mudah dikembangkan sebagai fondasi pemasaran online.",
       "backgroundImage": "/public/images/1780737704403-hero-gudangweb-com.png",
-      "image": "/public/images/1780737814078-intro.jpg",
+      "image": "",
       "imageAlt": "Tim GudangWeb membangun website profesional"
     },
     "storyTitle": "Kami membangun website dengan orientasi bisnis, bukan sekadar tampilan.",
@@ -132,7 +132,7 @@
       "Panel admin berbasis GitHub sehingga konten tersimpan aman di repository.",
       "Cocok untuk bisnis jasa, UMKM, konsultan, toko, komunitas, dan perusahaan."
     ],
-    "image": "/public/images/gudangweb-about-photo.svg",
+    "image": "/public/images/1780737814078-intro.jpg",
     "imageAlt": "Diskusi strategi website dan SEO bersama GudangWeb",
     "cta": {
       "title": "Ingin mengenal solusi GudangWeb lebih jauh?",
@@ -171,7 +171,7 @@
       "title": "Solusi website, konten, dan SEO untuk kebutuhan bisnis digital Anda.",
       "subtitle": "Mulai dari company profile sederhana hingga pengembangan halaman layanan dan artikel blog untuk membangun kepercayaan serta visibilitas organik.",
       "backgroundImage": "/public/images/1780737704403-hero-gudangweb-com.png",
-      "image": "/public/images/1780737814078-intro.jpg",
+      "image": "",
       "imageAlt": "Layanan pembuatan website dan SEO GudangWeb"
     },
     "items": [
@@ -223,7 +223,7 @@
     "introEyebrow": "Solusi Digital",
     "introTitle": "Layanan website dan SEO yang disusun agar bisnis lebih mudah dipercaya dan ditemukan.",
     "introText": "Setiap bisnis memiliki kebutuhan digital yang berbeda. GudangWeb membantu menyusun struktur halaman, desain, konten, dan fitur dasar yang sesuai dengan tujuan bisnis, mulai dari company profile, landing page, katalog produk, hingga artikel SEO.",
-    "introImage": "/public/images/gudangweb-services-photo.svg",
+    "introImage": "/public/images/1780737814078-intro.jpg",
     "introImageAlt": "Dashboard website dan optimasi SEO",
     "faqTitle": "FAQ Layanan Website dan SEO",
     "faqDescription": "Pertanyaan umum sebelum memilih layanan pembuatan website, landing page, CMS, atau SEO.",
@@ -248,7 +248,7 @@
       "title": "Diskusikan kebutuhan website dan SEO Anda bersama kami.",
       "subtitle": "Hubungi GudangWeb untuk konsultasi pembuatan website company profile, landing page, toko online, CMS, dan optimasi SEO.",
       "backgroundImage": "/public/images/1780737704403-hero-gudangweb-com.png",
-      "image": "/public/images/1780737814078-intro.jpg",
+      "image": "",
       "imageAlt": "Konsultasi website dan SEO GudangWeb"
     },
     "cards": [
@@ -284,7 +284,7 @@
       "whatsappMessage": "Halo GudangWeb, saya ingin konsultasi pembuatan website dan SEO.",
       "cardLabel": "Siap dibantu GudangWeb"
     },
-    "image": "/public/images/gudangweb-contact-photo.svg",
+    "image": "/public/images/1780737814078-intro.jpg",
     "imageAlt": "Kirim brief website ke GudangWeb",
     "faqTitle": "FAQ Kontak dan Konsultasi",
     "faqDescription": "Pertanyaan umum sebelum menghubungi GudangWeb untuk konsultasi website dan SEO.",
@@ -333,7 +333,7 @@
     "title": "Artikel Website, SEO, dan Digital Marketing",
     "description": "Kumpulan artikel untuk membantu bisnis memahami website, konten, SEO, dan strategi online.",
     "backgroundImage": "/public/images/1780737704403-hero-gudangweb-com.png",
-    "image": "/public/images/1780737814078-intro.jpg",
+    "image": "",
     "imageAlt": "Artikel dan insight digital GudangWeb",
     "faqTitle": "FAQ Blog Website dan SEO",
     "faqDescription": "Pertanyaan umum seputar artikel blog, konten SEO, dan penggunaan blog untuk website bisnis.",
