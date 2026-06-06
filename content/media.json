@@ -1,0 +1,49 @@
+{
+  "images": {
+    "/public/images/gudangweb-about-hero.svg": {
+      "alt": "Hero halaman tentang GudangWeb jasa website dan SEO"
+    },
+    "/public/images/gudangweb-about-photo.svg": {
+      "alt": "Ilustrasi tim GudangWeb merancang website bisnis profesional"
+    },
+    "/public/images/gudangweb-blog-hero.svg": {
+      "alt": "Hero blog GudangWeb tentang website dan SEO"
+    },
+    "/public/images/gudangweb-blog-photo.svg": {
+      "alt": "Ilustrasi artikel blog website SEO dan digital marketing GudangWeb"
+    },
+    "/public/images/gudangweb-contact-hero.svg": {
+      "alt": "Hero halaman kontak GudangWeb untuk konsultasi website dan SEO"
+    },
+    "/public/images/gudangweb-contact-photo.svg": {
+      "alt": "Ilustrasi konsultasi website dan SEO bersama GudangWeb"
+    },
+    "/public/images/gudangweb-favicon.svg": {
+      "alt": "Favicon GudangWeb"
+    },
+    "/public/images/gudangweb-hero-bg.svg": {
+      "alt": "Background hero website GudangWeb untuk jasa pembuatan website dan SEO"
+    },
+    "/public/images/gudangweb-intro.svg": {
+      "alt": "Ilustrasi proses pembuatan website profesional dan optimasi SEO"
+    },
+    "/public/images/gudangweb-logo.svg": {
+      "alt": "Logo GudangWeb jasa pembuatan website dan SEO"
+    },
+    "/public/images/gudangweb-services-hero.svg": {
+      "alt": "Hero halaman layanan pembuatan website dan SEO GudangWeb"
+    },
+    "/public/images/gudangweb-services-photo.svg": {
+      "alt": "Ilustrasi layanan pembuatan website company profile dan SEO GudangWeb"
+    },
+    "/public/images/icon-editable-cms.svg": {
+      "alt": "Icon CMS website yang mudah diedit"
+    },
+    "/public/images/icon-fast-website.svg": {
+      "alt": "Icon website cepat dan mobile friendly"
+    },
+    "/public/images/icon-seo-growth.svg": {
+      "alt": "Icon pertumbuhan SEO untuk website bisnis"
+    }
+  }
+}

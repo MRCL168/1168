@@ -1,0 +1,100 @@
+{
+  "title": "GudangWeb",
+  "tagline": "Jasa Pembuatan Website & SEO",
+  "description": "GudangWeb adalah jasa pembuatan website, company profile, landing page, toko online, CMS berbasis GitHub, dan SEO untuk bisnis yang ingin tampil profesional di internet.",
+  "author": "GudangWeb",
+  "language": "id",
+  "baseUrl": "https://www.gudangweb.com",
+  "basePath": "",
+  "postsPerPage": 6,
+  "defaultOgImage": "",
+  "social": {
+    "twitter": "",
+    "github": "",
+    "instagram": "",
+    "linkedin": "",
+    "email": "admin@gudangweb.com"
+  },
+  "nav": [
+    {
+      "label": "Beranda",
+      "url": "/"
+    },
+    {
+      "label": "Tentang Kami",
+      "url": "/tentang-kami/"
+    },
+    {
+      "label": "Layanan",
+      "url": "/layanan/",
+      "children": [
+        {
+          "label": "Jasa Pembuatan Website",
+          "url": "/layanan/#website"
+        },
+        {
+          "label": "Jasa SEO Website",
+          "url": "/layanan/#seo"
+        },
+        {
+          "label": "CMS Berbasis GitHub",
+          "url": "/layanan/#cms"
+        }
+      ]
+    },
+    {
+      "label": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "label": "Kontak",
+      "url": "/kontak/"
+    }
+  ],
+  "footerText": "Website company profile berbasis GitHub CMS.",
+  "branding": {
+    "logo": "/public/images/gudangweb-logo.svg",
+    "logoAlt": "GudangWeb",
+    "favicon": "/public/images/gudangweb-favicon.svg",
+    "showSiteTitle": true
+  },
+  "theme": {
+    "primaryColor": "#155eef",
+    "primaryDarkColor": "#0b45c8",
+    "accentColor": "#38bdf8",
+    "darkColor": "#0b1220",
+    "backgroundColor": "#f7f9fc",
+    "surfaceColor": "#ffffff",
+    "textColor": "#0f172a",
+    "mutedColor": "#64748b",
+    "borderColor": "#e2e8f0",
+    "softColor": "#dbeafe"
+  },
+  "footer": {
+    "copyrightText": "© {year} GudangWeb. All rights reserved.",
+    "creditText": "Build with gitcompro",
+    "creditUrl": "https://www.gudangweb.com"
+  },
+  "footerMenu": [
+    {
+      "label": "Beranda",
+      "url": "/"
+    },
+    {
+      "label": "Tentang Kami",
+      "url": "/tentang-kami/"
+    },
+    {
+      "label": "Layanan",
+      "url": "/layanan/"
+    },
+    {
+      "label": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "label": "Kontak",
+      "url": "/kontak/"
+    }
+  ]
+}

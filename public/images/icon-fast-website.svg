@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Ikon Website Cepat</title>
+  <desc id="desc">Kecepatan loading website</desc>
+  <defs>
+    <linearGradient id="g" x1="28" y1="132" x2="132" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#155EEF"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="124" height="124" rx="34" fill="#EFF6FF"/>
+  <path d="M43 91c4-32 30-55 62-55" fill="none" stroke="#BFDBFE" stroke-width="9" stroke-linecap="round"/>
+  <path d="M80 91l31-34" stroke="url(#g)" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="80" cy="91" r="10" fill="#155EEF"/>
+  <path d="M45 111h70" stroke="#155EEF" stroke-width="8" stroke-linecap="round"/>
+</svg>

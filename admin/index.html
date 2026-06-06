@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GudangWeb CMS — GitHub Company Profile</title>
+  <meta name="description" content="CMS company profile berbasis GitHub untuk mengelola halaman, artikel, media, dan pengaturan situs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="toast-container" class="toast-container"></div>
+  <div id="loader" class="loader hidden"><div class="loader-spinner"></div><span id="loader-text">Memuat…</span></div>
+
+  <section id="view-login" class="view auth-screen">
+    <div class="auth-card">
+      <div class="auth-brand"><div class="brand-mark">GW</div><h1 class="brand-name">GudangWeb CMS</h1></div>
+      <p class="auth-tagline">Kelola website company profile, blog, dan media langsung dari repository GitHub.</p>
+      <div class="field">
+        <label for="input-token">GitHub Personal Access Token</label>
+        <input type="password" id="input-token" placeholder="github_pat_xxxxxxxxxxxx atau ghp_xxxxxxxx" autocomplete="off" />
+        <small class="field-hint">Token disimpan di browser Anda dan dipakai hanya untuk akses repository.</small>
+      </div>
+      <button id="btn-login" class="btn btn-primary btn-block"><span>Hubungkan ke GitHub</span></button>
+      <details class="auth-help">
+        <summary>Cara membuat token →</summary>
+        <ol>
+          <li>Buka GitHub → Settings → Developer settings.</li>
+          <li>Pilih Personal access tokens → Fine-grained tokens.</li>
+          <li>Beri akses ke repository CMS Anda.</li>
+          <li>Set permission Contents ke Read and write.</li>
+        </ol>
+      </details>
+    </div>
+    <footer class="auth-footer">Company profile statis, konten tersimpan di GitHub.</footer>
+  </section>
+
+  <section id="view-setup" class="view auth-screen hidden">
+    <div class="auth-card">
+      <div class="auth-brand"><div class="brand-mark">GW</div><h1 class="brand-name">Konfigurasi Repository</h1></div>
+      <p class="auth-tagline">Tentukan repository tempat file konten disimpan.</p>
+      <div class="user-pill" id="setup-user-pill"></div>
+      <div class="field"><label for="input-owner">Owner / Username</label><input type="text" id="input-owner" placeholder="cth: gudangweb" /></div>
+      <div class="field"><label for="input-repo">Nama Repository</label><input type="text" id="input-repo" placeholder="cth: gudangweb-cms" /></div>
+      <div class="field-row">
+        <div class="field"><label for="input-branch">Branch</label><input type="text" id="input-branch" value="main" /></div>
+        <div class="field"><label for="input-path">Folder Artikel</label><input type="text" id="input-path" value="content/posts" /></div>
+      </div>
+      <button id="btn-save-config" class="btn btn-primary btn-block">Simpan & Lanjutkan</button>
+      <button id="btn-logout-setup" class="btn btn-ghost btn-block">Keluar</button>
+    </div>
+  </section>
+
+  <section id="view-app" class="view app-shell hidden">
+    <aside class="sidebar">
+      <div class="sidebar-brand"><div class="brand-mark">GW</div><span class="brand-name">GudangWeb CMS</span></div>
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-nav="pages"><span class="nav-icon">▦</span> Halaman Website</button>
+        <button class="nav-item" data-nav="list"><span class="nav-icon">▤</span> Artikel</button>
+        <button class="nav-item" data-nav="editor"><span class="nav-icon">✎</span> Tulis Baru</button>
+        <button class="nav-item" data-nav="media"><span class="nav-icon">▣</span> Media</button>
+        <button class="nav-item" data-nav="settings"><span class="nav-icon">◐</span> Pengaturan Situs</button>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="repo-badge" id="repo-badge"></div>
+        <button class="nav-item" id="btn-settings"><span class="nav-icon">⚙</span> Repo</button>
+        <button class="nav-item" id="btn-logout"><span class="nav-icon">⏻</span> Keluar</button>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <div id="panel-pages" class="panel">
+        <header class="panel-header">
+          <div><h2 class="panel-title">Halaman Website</h2><p class="panel-sub">Edit setiap section halaman Beranda, Tentang Kami, Layanan, Kontak, FAQ, sidebar blog, dan data perusahaan.</p></div>
+          <div class="panel-actions"><button class="btn btn-ghost" id="btn-reload-site-content">Muat Ulang</button><button class="btn btn-primary" id="btn-save-site-content">Simpan Section</button></div>
+        </header>
+        <div class="page-tabs">
+          <button class="page-tab active" data-section="company">Data Perusahaan</button>
+          <button class="page-tab" data-section="home">Beranda</button>
+          <button class="page-tab" data-section="about">Tentang Kami</button>
+          <button class="page-tab" data-section="services">Layanan</button>
+          <button class="page-tab" data-section="contact">Kontak</button>
+          <button class="page-tab" data-section="blogPage">Halaman Blog</button>
+          <button class="page-tab" data-section="blogSidebar">Sidebar Blog</button>
+          <button class="page-tab" data-section="floatingWhatsapp">Tombol WhatsApp</button>
+        </div>
+        <div id="section-editor" class="section-editor"><div class="skeleton-card"></div><div class="skeleton-card"></div></div>
+      </div>
+
+      <div id="panel-list" class="panel hidden">
+        <header class="panel-header">
+          <div><h2 class="panel-title">Artikel / Blog</h2><p class="panel-sub" id="list-count">Memuat…</p></div>
+          <div class="panel-actions"><button class="btn btn-ghost btn-icon" id="btn-refresh" title="Muat ulang">↻</button><button class="btn btn-primary" id="btn-new-article">+ Tulis Baru</button></div>
+        </header>
+        <div class="search-bar"><input type="text" id="search-input" placeholder="Cari artikel berdasarkan judul atau slug…" /></div>
+        <div id="article-list" class="article-list"></div>
+      </div>
+
+      <div id="panel-editor" class="panel hidden">
+        <header class="panel-header">
+          <div><h2 class="panel-title" id="editor-title">Tulis Artikel Baru</h2><p class="panel-sub" id="editor-sub">Artikel akan tampil di halaman Blog dengan sidebar layanan dan kontak.</p></div>
+          <div class="panel-actions"><button class="btn btn-ghost" id="btn-cancel-edit">Batal</button><button class="btn btn-primary" id="btn-save-article">Simpan & Commit</button></div>
+        </header>
+        <div class="editor-grid">
+          <div class="editor-main"><input type="text" id="meta-title" class="title-input" placeholder="Judul artikel…" /><textarea id="markdown-editor"></textarea></div>
+          <div class="editor-meta">
+            <div class="meta-card"><h3 class="meta-card-title">Metadata Artikel</h3>
+              <div class="field"><label for="meta-slug">Slug URL</label><input type="text" id="meta-slug" placeholder="judul-artikel" /></div>
+              <div class="field"><label for="meta-status">Status</label><select id="meta-status"><option value="published">Published</option><option value="draft">Draft</option></select></div>
+              <div class="field"><label for="meta-category">Kategori</label><input type="text" id="meta-category" placeholder="cth: SEO" list="category-suggestions" /><datalist id="category-suggestions"></datalist></div>
+              <div class="field"><label for="meta-date">Tanggal</label><input type="date" id="meta-date" /></div>
+              <div class="field"><label for="meta-author">Penulis</label><input type="text" id="meta-author" placeholder="GudangWeb" /></div>
+              <div class="field"><label for="meta-tags">Tags</label><input type="text" id="meta-tags" placeholder="seo, website, bisnis" /></div>
+              <div class="field"><label for="meta-excerpt">Excerpt / Deskripsi SEO</label><textarea id="meta-excerpt" rows="3"></textarea></div>
+              <div class="field field-featured-image">
+                <label for="meta-image">Featured Image</label>
+                <div class="featured-preview" id="featured-image-preview-wrap"><img id="featured-image-preview" class="hidden" src="" alt="Preview" /><div id="featured-image-empty" class="featured-preview-empty">Belum ada gambar cover</div></div>
+                <input type="text" id="meta-image" placeholder="/public/images/foto.jpg" />
+                <div class="field nested-field"><label for="meta-image-alt">Alt Text Featured Image</label><input type="text" id="meta-image-alt" placeholder="Contoh: Jasa pembuatan website company profile GudangWeb" /><small class="field-hint">Alt text ini dipakai di gambar artikel dan kartu blog. Jika kosong, sistem memakai alt text dari Media atau judul artikel.</small></div>
+                <div class="featured-actions"><button type="button" class="btn btn-primary btn-small" id="btn-upload-featured-image">Upload</button><button type="button" class="btn btn-ghost btn-small" id="btn-open-media-for-featured">Pilih Media</button><button type="button" class="btn btn-ghost btn-small" id="btn-clear-featured-image">Hapus</button></div>
+                <input type="file" id="featured-image-upload" class="visually-hidden-file" accept="image/png,image/jpeg,image/gif,image/webp,image/svg+xml" />
+              </div>
+            </div>
+            <div class="meta-card">
+              <h3 class="meta-card-title">FAQ Artikel</h3>
+              <p class="field-hint">Isi satu FAQ per baris dengan format <code>Pertanyaan | Jawaban</code>. FAQ akan tampil di bawah artikel dan otomatis masuk schema FAQPage jika pertanyaan dan jawaban lengkap.</p>
+              <div class="field"><label for="meta-faq-title">Judul Section FAQ</label><input type="text" id="meta-faq-title" placeholder="FAQ Artikel" /></div>
+              <div class="field"><label for="meta-faq-description">Deskripsi Section FAQ</label><textarea id="meta-faq-description" rows="2" placeholder="Pertanyaan umum terkait topik artikel ini."></textarea></div>
+              <div class="field"><label for="meta-faq">Daftar FAQ</label><textarea id="meta-faq" rows="7" placeholder="Apakah website company profile penting? | Ya, karena website membantu bisnis terlihat lebih profesional dan mudah ditemukan.&#10;Apakah bisa dikembangkan untuk SEO? | Bisa, struktur halaman dapat dikembangkan dengan artikel dan halaman layanan."></textarea></div>
+            </div>
+            <div class="meta-card meta-card-muted"><h3 class="meta-card-title">File</h3><p class="meta-filename" id="editor-filename">—</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="panel-media" class="panel hidden">
+        <header class="panel-header"><div><h2 class="panel-title">Media</h2><p class="panel-sub" id="media-sub">Gambar disimpan di folder public/images/. Alt text SEO disimpan di content/media.json.</p></div><div class="panel-actions"><button class="btn btn-ghost btn-icon" id="btn-refresh-media">↻</button><button class="btn btn-primary" id="btn-upload-media" type="button">+ Upload Gambar</button><input type="file" id="media-upload" class="visually-hidden-file" accept="image/png,image/jpeg,image/gif,image/webp,image/svg+xml" /></div></header>
+        <div id="media-grid" class="media-grid"></div>
+      </div>
+
+      <div id="panel-settings" class="panel hidden">
+        <header class="panel-header"><div><h2 class="panel-title">Pengaturan Situs</h2><p class="panel-sub">Edit config.json untuk URL, judul situs, dan metadata utama.</p></div><div class="panel-actions"><button class="btn btn-primary" id="btn-save-settings">Simpan Pengaturan</button></div></header>
+        <div class="settings-wrap">
+          <div class="meta-card">
+            <h3 class="meta-card-title">Identitas</h3>
+            <div class="field"><label for="set-title">Judul Situs</label><input type="text" id="set-title" /></div>
+            <div class="field"><label for="set-tagline">Tagline</label><input type="text" id="set-tagline" /></div>
+            <div class="field"><label for="set-description">Deskripsi SEO</label><textarea id="set-description" rows="3"></textarea></div>
+            <div class="field"><label for="set-author">Author</label><input type="text" id="set-author" /></div>
+          </div>
+
+          <div class="meta-card">
+            <h3 class="meta-card-title">Footer</h3>
+            <p class="settings-note">Edit teks bagian bawah website. Gunakan <code>{year}</code> jika ingin tahun otomatis.</p>
+            <div class="field"><label for="set-footer-copyright">Teks Copyright Kiri</label><input type="text" id="set-footer-copyright" placeholder="© {year} GudangWeb. All rights reserved." /></div>
+            <div class="field-row">
+              <div class="field"><label for="set-footer-credit-text">Credit Design Kanan</label><input type="text" id="set-footer-credit-text" placeholder="Build with gitcompro" /></div>
+              <div class="field"><label for="set-footer-credit-url">Link Credit</label><input type="text" id="set-footer-credit-url" placeholder="https://www.gudangweb.com" /></div>
+            </div>
+          </div>
+
+
+          <div class="meta-card">
+            <div class="settings-card-head">
+              <div>
+                <h3 class="meta-card-title">Menu Header</h3>
+                <p class="settings-note">Atur menu utama di header. Isi sub menu dengan format <code>Nama Menu | /link/</code>, satu item per baris.</p>
+              </div>
+              <button type="button" class="btn btn-primary btn-small" id="btn-add-header-menu">+ Tambah Menu</button>
+            </div>
+            <div id="header-menu-builder" class="menu-builder"></div>
+          </div>
+
+          <div class="meta-card">
+            <div class="settings-card-head">
+              <div>
+                <h3 class="meta-card-title">Menu Footer</h3>
+                <p class="settings-note">Atur satu menu footer seperti sebelumnya. Tambahkan link yang ingin ditampilkan di bagian footer website.</p>
+              </div>
+              <button type="button" class="btn btn-primary btn-small" id="btn-add-footer-menu">+ Tambah Link</button>
+            </div>
+            <div id="footer-menu-builder" class="menu-builder"></div>
+          </div>
+
+          <div class="meta-card">
+            <h3 class="meta-card-title">Logo & Favicon</h3>
+            <p class="settings-note">Logo dan favicon disimpan di <code>config.json</code>. Anda bisa isi path manual atau upload gambar langsung ke folder <code>public/images/</code>.</p>
+            <div class="settings-media-preview-wrap">
+              <div class="settings-media-preview"><span>Logo</span><img id="set-logo-preview" class="hidden" src="" alt="Preview logo" /><div id="set-logo-empty" class="settings-preview-empty">Belum ada logo</div></div>
+              <div class="settings-media-preview settings-favicon-preview"><span>Favicon</span><img id="set-favicon-preview" class="hidden" src="" alt="Preview favicon" /><div id="set-favicon-empty" class="settings-preview-empty">Belum ada favicon</div></div>
+            </div>
+            <div class="field"><label for="set-logo">Logo Website</label><div class="settings-upload-row"><input type="text" id="set-logo" placeholder="/public/images/logo.svg" /><button type="button" class="btn btn-primary btn-small" id="btn-upload-logo">Upload</button><input type="file" id="logo-upload" class="visually-hidden-file" accept="image/png,image/jpeg,image/gif,image/webp,image/svg+xml" /></div></div>
+            <div class="field"><label for="set-logo-alt">Alt Text Logo</label><input type="text" id="set-logo-alt" placeholder="GudangWeb" /></div>
+            <div class="field"><label for="set-favicon">Favicon</label><div class="settings-upload-row"><input type="text" id="set-favicon" placeholder="/public/images/favicon.svg" /><button type="button" class="btn btn-primary btn-small" id="btn-upload-favicon">Upload</button><input type="file" id="favicon-upload" class="visually-hidden-file" accept="image/png,image/jpeg,image/gif,image/webp,image/svg+xml" /></div></div>
+            <div class="field"><label for="set-show-title">Tampilkan Nama Situs di Samping Logo</label><select id="set-show-title"><option value="true">Ya, tampilkan</option><option value="false">Tidak, logo saja</option></select></div>
+          </div>
+
+          <div class="meta-card">
+            <h3 class="meta-card-title">Warna Theme</h3>
+            <p class="settings-note">Warna ini akan menjadi CSS variable frontend. Gunakan format hex seperti <code>#155eef</code>.</p>
+            <div class="theme-color-grid">
+              <div class="field"><label for="set-primary">Primary</label><input type="color" id="set-primary" /></div>
+              <div class="field"><label for="set-primary-dark">Primary Dark</label><input type="color" id="set-primary-dark" /></div>
+              <div class="field"><label for="set-accent">Accent / Gradient</label><input type="color" id="set-accent" /></div>
+              <div class="field"><label for="set-dark">Dark / CTA</label><input type="color" id="set-dark" /></div>
+              <div class="field"><label for="set-bg">Background</label><input type="color" id="set-bg" /></div>
+              <div class="field"><label for="set-surface">Surface</label><input type="color" id="set-surface" /></div>
+              <div class="field"><label for="set-text">Text</label><input type="color" id="set-text" /></div>
+              <div class="field"><label for="set-muted">Muted Text</label><input type="color" id="set-muted" /></div>
+              <div class="field"><label for="set-border">Border</label><input type="color" id="set-border" /></div>
+              <div class="field"><label for="set-soft">Soft Background</label><input type="color" id="set-soft" /></div>
+            </div>
+          </div>
+
+          <div class="meta-card"><h3 class="meta-card-title">URL</h3><div class="field"><label for="set-baseurl">Base URL</label><input type="text" id="set-baseurl" /></div><div class="field"><label for="set-basepath">Base Path</label><input type="text" id="set-basepath" /></div><div class="field"><label for="set-perpage">Artikel per halaman blog</label><input type="number" id="set-perpage" min="1" max="50" /></div></div>
+          <div class="meta-card"><h3 class="meta-card-title">Sosial / Email</h3><div class="field-row"><div class="field"><label for="set-github">GitHub</label><input type="text" id="set-github" /></div><div class="field"><label for="set-instagram">Instagram</label><input type="text" id="set-instagram" /></div></div><div class="field-row"><div class="field"><label for="set-linkedin">LinkedIn</label><input type="text" id="set-linkedin" /></div><div class="field"><label for="set-twitter">Twitter/X</label><input type="text" id="set-twitter" /></div></div><div class="field"><label for="set-email">Email</label><input type="text" id="set-email" /></div></div>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <div id="modal-confirm" class="modal-overlay hidden"><div class="modal"><h3 id="modal-title">Konfirmasi</h3><p id="modal-message">Apakah Anda yakin?</p><div class="modal-actions"><button class="btn btn-ghost" id="modal-cancel">Batal</button><button class="btn btn-danger" id="modal-confirm-btn">Hapus</button></div></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.js"></script>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/auth.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/editor.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

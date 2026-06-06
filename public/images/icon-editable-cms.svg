@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Ikon CMS Editable</title>
+  <desc id="desc">Panel editor untuk mengubah section website</desc>
+  <defs>
+    <linearGradient id="g" x1="32" y1="128" x2="128" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#155EEF"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="124" height="124" rx="34" fill="#EFF6FF"/>
+  <rect x="43" y="45" width="74" height="58" rx="12" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="6"/>
+  <path d="M55 61h50M55 76h33M55 91h22" stroke="#155EEF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M91 104l27-27 11 11-27 27-16 5 5-16z" fill="url(#g)"/>
+</svg>

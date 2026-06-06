@@ -1,0 +1,360 @@
+{
+  "company": {
+    "name": "GudangWeb",
+    "tagline": "Jasa Pembuatan Website & SEO untuk Bisnis yang Ingin Tampil Lebih Profesional",
+    "description": "GudangWeb membantu UMKM, perusahaan, dan penyedia jasa membangun website company profile, landing page, toko online, sistem sederhana, serta optimasi SEO yang lebih terarah untuk mendatangkan calon pelanggan dari Google.",
+    "phone": "0877 4113 5796",
+    "whatsapp": "6287741135796",
+    "email": "admin@gudangweb.com",
+    "website": "https://www.gudangweb.com",
+    "address": "JL. Raya STPI Curug KM. 3.5, Tangerang",
+    "hours": "Senin–Sabtu, 09.00–17.00 WIB"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Website profesional untuk bisnis lokal dan perusahaan",
+      "title": "Bangun Website yang Rapi, Cepat, Mudah Dikelola, dan Siap Mendukung SEO",
+      "subtitle": "Kami membuat website company profile, landing page, toko online, dan sistem berbasis web yang bersih, responsif, serta dirancang agar bisnis Anda lebih mudah ditemukan calon pelanggan.",
+      "primaryLabel": "Konsultasi via WhatsApp",
+      "secondaryLabel": "Lihat Layanan",
+      "backgroundImage": "/public/images/gudangweb-hero-bg.svg"
+    },
+    "stats": [
+      {
+        "value": "SEO",
+        "label": "Struktur konten dan halaman disiapkan untuk kebutuhan organik.",
+        "icon": "/public/images/icon-seo-growth.svg",
+        "iconAlt": "SEO"
+      },
+      {
+        "value": "Fast",
+        "label": "Template ringan dengan tampilan bersih dan mobile-friendly.",
+        "icon": "/public/images/icon-fast-website.svg",
+        "iconAlt": "Fast"
+      },
+      {
+        "value": "Editable",
+        "label": "Section utama dapat diedit dari panel admin berbasis GitHub.",
+        "icon": "/public/images/icon-editable-cms.svg",
+        "iconAlt": "Editable"
+      }
+    ],
+    "intro": {
+      "eyebrow": "Tentang pendekatan kami",
+      "title": "Website bukan hanya tampilan, tetapi aset digital yang harus mudah digunakan dan mudah ditemukan.",
+      "text": "GudangWeb mengutamakan struktur website yang jelas, copywriting yang relevan, halaman layanan yang lengkap, dan pondasi teknis yang rapi. Dengan pendekatan ini, website tidak hanya terlihat profesional, tetapi juga lebih siap digunakan untuk promosi, iklan, maupun pengembangan SEO jangka panjang.",
+      "image": "/public/images/gudangweb-intro.svg",
+      "imageAlt": "Ilustrasi proses pembuatan website dan SEO GudangWeb"
+    },
+    "serviceTitle": "Layanan Utama GudangWeb",
+    "serviceIntro": "Pilih layanan sesuai kebutuhan bisnis Anda. Setiap layanan dapat diarahkan ke halaman detail, artikel pendukung, atau tombol konsultasi WhatsApp.",
+    "processTitle": "Alur Kerja yang Jelas",
+    "process": [
+      {
+        "title": "Brief & Analisis",
+        "text": "Kami memahami jenis bisnis, target pelanggan, area layanan, dan kebutuhan konten sebelum mulai membuat struktur website."
+      },
+      {
+        "title": "Desain & Build",
+        "text": "Website dibuat dengan layout bersih, navigasi mudah, tampilan responsif, dan struktur halaman yang siap dikembangkan."
+      },
+      {
+        "title": "Optimasi & Publikasi",
+        "text": "Kami menyiapkan elemen SEO dasar, halaman penting, dan panduan pengelolaan agar website siap digunakan."
+      }
+    ],
+    "cta": {
+      "title": "Siap membuat website bisnis yang lebih profesional?",
+      "text": "Konsultasikan kebutuhan website, SEO, atau sistem web sederhana untuk bisnis Anda bersama GudangWeb.",
+      "button": "Hubungi GudangWeb",
+      "eyebrow": "Konsultasi",
+      "highlights": [
+        "Konsultasi kebutuhan website",
+        "Arahan struktur halaman",
+        "Siap dikembangkan untuk SEO"
+      ],
+      "note": "Kirim brief singkat agar kami bisa memberi arahan struktur website yang paling sesuai.",
+      "whatsappMessage": "Halo GudangWeb, saya ingin konsultasi pembuatan website dan SEO.",
+      "cardLabel": "Siap dibantu GudangWeb"
+    },
+    "blog": {
+      "eyebrow": "Blog",
+      "title": "Artikel Terbaru Seputar Website & SEO",
+      "description": "Baca insight praktis tentang pembuatan website, company profile, landing page, CMS, dan SEO untuk bisnis.",
+      "articleLimit": 3
+    },
+    "faqTitle": "Pertanyaan Umum tentang Website GudangWeb",
+    "faqDescription": "Beberapa jawaban singkat sebelum Anda mulai konsultasi pembuatan website dan SEO.",
+    "faq": [
+      {
+        "question": "Apakah website ini bisa diedit dari admin?",
+        "answer": "Bisa. Section utama seperti hero, intro, layanan, CTA, kontak, warna, menu, logo, dan FAQ dapat diedit melalui panel admin berbasis GitHub."
+      },
+      {
+        "question": "Apakah cocok untuk company profile bisnis jasa?",
+        "answer": "Cocok. Struktur halaman dibuat untuk menampilkan profil, layanan, keunggulan, artikel blog, dan kontak WhatsApp dengan tampilan profesional."
+      },
+      {
+        "question": "Apakah website sudah SEO-friendly?",
+        "answer": "Template sudah menyiapkan struktur heading, slug rapi, meta dasar, sitemap, RSS, alt text media, FAQ, dan schema markup yang hanya muncul ketika datanya tersedia."
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Tentang GudangWeb",
+      "title": "Partner pembuatan website dan SEO untuk bisnis yang ingin tumbuh secara digital.",
+      "subtitle": "Kami membantu bisnis memiliki website yang rapi, informatif, dan mudah dikembangkan sebagai fondasi pemasaran online.",
+      "backgroundImage": "/public/images/gudangweb-about-hero.svg",
+      "image": "/public/images/gudangweb-about-photo.svg",
+      "imageAlt": "Tim GudangWeb membangun website profesional"
+    },
+    "storyTitle": "Kami membangun website dengan orientasi bisnis, bukan sekadar tampilan.",
+    "storyText": "GudangWeb hadir untuk membantu pemilik usaha, brand lokal, penyedia jasa, komunitas, dan perusahaan yang membutuhkan website profesional tanpa proses yang rumit. Setiap halaman dirancang agar pengunjung cepat memahami siapa Anda, apa layanan Anda, dan bagaimana mereka bisa menghubungi Anda. Selain tampilan, kami juga memperhatikan struktur heading, konten, internal link, kecepatan, dan dasar-dasar SEO agar website lebih siap bersaing di pencarian Google.",
+    "values": [
+      {
+        "title": "Jelas",
+        "text": "Struktur halaman dibuat mudah dipahami oleh pengunjung dan mudah dikelola oleh pemilik website."
+      },
+      {
+        "title": "Profesional",
+        "text": "Desain dibuat bersih, modern, responsif, dan sesuai karakter bisnis."
+      },
+      {
+        "title": "SEO-Friendly",
+        "text": "Konten dan halaman disusun dengan memperhatikan kebutuhan mesin pencari dan calon pelanggan."
+      }
+    ],
+    "whyTitle": "Mengapa memilih GudangWeb?",
+    "whyList": [
+      "Template bersih dan ringan untuk company profile.",
+      "Halaman layanan bisa dikembangkan untuk kebutuhan SEO lokal.",
+      "Panel admin berbasis GitHub sehingga konten tersimpan aman di repository.",
+      "Cocok untuk bisnis jasa, UMKM, konsultan, toko, komunitas, dan perusahaan."
+    ],
+    "image": "/public/images/gudangweb-about-photo.svg",
+    "imageAlt": "Diskusi strategi website dan SEO bersama GudangWeb",
+    "cta": {
+      "title": "Ingin mengenal solusi GudangWeb lebih jauh?",
+      "text": "Kami siap membantu Anda merancang website company profile yang sesuai kebutuhan bisnis.",
+      "button": "Hubungi Kami",
+      "eyebrow": "Konsultasi",
+      "highlights": [
+        "Pendekatan sesuai bisnis",
+        "Desain profesional",
+        "Konten mudah dikelola"
+      ],
+      "note": "Kirim brief singkat agar kami bisa memberi arahan struktur website yang paling sesuai.",
+      "whatsappMessage": "Halo GudangWeb, saya ingin konsultasi pembuatan website dan SEO.",
+      "cardLabel": "Siap dibantu GudangWeb"
+    },
+    "faqTitle": "FAQ Tentang GudangWeb",
+    "faqDescription": "Informasi ringkas tentang pendekatan kerja dan pengelolaan website bersama GudangWeb.",
+    "faq": [
+      {
+        "question": "Apa fokus utama GudangWeb?",
+        "answer": "GudangWeb berfokus pada pembuatan website company profile, landing page, CMS ringan, dan optimasi struktur SEO untuk kebutuhan bisnis."
+      },
+      {
+        "question": "Apakah konten website bisa dikembangkan setelah online?",
+        "answer": "Bisa. Halaman layanan, artikel blog, FAQ, gambar, dan menu dapat ditambah secara bertahap dari admin CMS."
+      },
+      {
+        "question": "Apakah cocok untuk UMKM dan perusahaan lokal?",
+        "answer": "Ya. Template ini dirancang untuk bisnis lokal, UMKM, konsultan, penyedia jasa, toko, komunitas, dan perusahaan yang membutuhkan website profesional."
+      }
+    ]
+  },
+  "services": {
+    "hero": {
+      "eyebrow": "Layanan GudangWeb",
+      "title": "Solusi website, konten, dan SEO untuk kebutuhan bisnis digital Anda.",
+      "subtitle": "Mulai dari company profile sederhana hingga pengembangan halaman layanan dan artikel blog untuk membangun kepercayaan serta visibilitas organik.",
+      "backgroundImage": "/public/images/gudangweb-services-hero.svg",
+      "image": "/public/images/gudangweb-services-photo.svg",
+      "imageAlt": "Layanan pembuatan website dan SEO GudangWeb"
+    },
+    "items": [
+      {
+        "title": "Jasa Pembuatan Website Company Profile",
+        "text": "Website profesional untuk menampilkan profil perusahaan, layanan, portofolio, kontak, dan informasi penting bisnis.",
+        "url": "/layanan/"
+      },
+      {
+        "title": "Jasa Pembuatan Landing Page",
+        "text": "Halaman promosi yang fokus pada penawaran, CTA, WhatsApp, dan kebutuhan iklan digital.",
+        "url": "/layanan/"
+      },
+      {
+        "title": "Jasa SEO Website",
+        "text": "Optimasi struktur halaman, artikel, internal link, dan keyword agar website lebih siap bersaing di Google.",
+        "url": "/layanan/"
+      },
+      {
+        "title": "Pembuatan Toko Online",
+        "text": "Website katalog atau toko online sederhana untuk menampilkan produk, kategori, dan kontak pembelian.",
+        "url": "/layanan/"
+      },
+      {
+        "title": "CMS Berbasis GitHub",
+        "text": "Website statis dengan admin ringan yang menyimpan konten langsung ke repository GitHub.",
+        "url": "/layanan/"
+      },
+      {
+        "title": "Maintenance & Pengembangan Website",
+        "text": "Bantuan update konten, perbaikan tampilan, penambahan halaman, dan optimasi berkala.",
+        "url": "/layanan/"
+      }
+    ],
+    "cta": {
+      "title": "Butuh rekomendasi layanan yang paling sesuai?",
+      "text": "Ceritakan jenis bisnis, target area, dan tujuan website Anda. Kami bantu arahkan struktur website yang paling efektif.",
+      "button": "Konsultasi Sekarang",
+      "eyebrow": "Konsultasi",
+      "highlights": [
+        "Rekomendasi layanan",
+        "Estimasi struktur website",
+        "Diskusi via WhatsApp"
+      ],
+      "note": "Kirim brief singkat agar kami bisa memberi arahan struktur website yang paling sesuai.",
+      "whatsappMessage": "Halo GudangWeb, saya ingin konsultasi pembuatan website dan SEO.",
+      "cardLabel": "Siap dibantu GudangWeb"
+    },
+    "introEyebrow": "Solusi Digital",
+    "introTitle": "Layanan website dan SEO yang disusun agar bisnis lebih mudah dipercaya dan ditemukan.",
+    "introText": "Setiap bisnis memiliki kebutuhan digital yang berbeda. GudangWeb membantu menyusun struktur halaman, desain, konten, dan fitur dasar yang sesuai dengan tujuan bisnis, mulai dari company profile, landing page, katalog produk, hingga artikel SEO.",
+    "introImage": "/public/images/gudangweb-services-photo.svg",
+    "introImageAlt": "Dashboard website dan optimasi SEO",
+    "faqTitle": "FAQ Layanan Website dan SEO",
+    "faqDescription": "Pertanyaan umum sebelum memilih layanan pembuatan website, landing page, CMS, atau SEO.",
+    "faq": [
+      {
+        "question": "Layanan apa saja yang bisa dibuat?",
+        "answer": "GudangWeb dapat membantu membuat website company profile, landing page, toko online sederhana, CMS berbasis GitHub, artikel blog, dan pengembangan SEO website."
+      },
+      {
+        "question": "Apakah setiap layanan bisa dibuatkan halaman khusus?",
+        "answer": "Bisa. Setiap layanan dapat dikembangkan menjadi halaman atau artikel khusus agar lebih mudah diarahkan untuk kebutuhan SEO dan promosi."
+      },
+      {
+        "question": "Apakah bisa konsultasi dulu sebelum menentukan paket?",
+        "answer": "Bisa. Anda dapat mengirim brief singkat melalui WhatsApp agar kami bisa memberi arahan struktur halaman dan fitur yang sesuai."
+      }
+    ]
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Kontak GudangWeb",
+      "title": "Diskusikan kebutuhan website dan SEO Anda bersama kami.",
+      "subtitle": "Hubungi GudangWeb untuk konsultasi pembuatan website company profile, landing page, toko online, CMS, dan optimasi SEO.",
+      "backgroundImage": "/public/images/gudangweb-contact-hero.svg",
+      "image": "/public/images/gudangweb-contact-photo.svg",
+      "imageAlt": "Konsultasi website dan SEO GudangWeb"
+    },
+    "cards": [
+      {
+        "title": "WhatsApp",
+        "text": "0877 4113 5796",
+        "url": "https://wa.me/6287741135796"
+      },
+      {
+        "title": "Website",
+        "text": "www.gudangweb.com",
+        "url": "https://www.gudangweb.com"
+      },
+      {
+        "title": "Alamat",
+        "text": "JL. Raya STPI Curug KM. 3.5, Tangerang",
+        "url": ""
+      }
+    ],
+    "noteTitle": "Kirim brief singkat agar konsultasi lebih cepat.",
+    "noteText": "Anda bisa mengirimkan jenis bisnis, halaman yang dibutuhkan, contoh website referensi, target area SEO, serta fitur tambahan seperti blog, katalog produk, form kontak, atau integrasi WhatsApp.",
+    "cta": {
+      "title": "Mau mulai dari company profile sederhana?",
+      "text": "Kami bisa membantu menyusun struktur halaman dasar: Beranda, Tentang Kami, Layanan, Kontak, dan Blog.",
+      "button": "Chat via WhatsApp",
+      "eyebrow": "Konsultasi",
+      "highlights": [
+        "Respon praktis",
+        "Brief lebih terarah",
+        "Mulai dari halaman dasar"
+      ],
+      "note": "Kirim brief singkat agar kami bisa memberi arahan struktur website yang paling sesuai.",
+      "whatsappMessage": "Halo GudangWeb, saya ingin konsultasi pembuatan website dan SEO.",
+      "cardLabel": "Siap dibantu GudangWeb"
+    },
+    "image": "/public/images/gudangweb-contact-photo.svg",
+    "imageAlt": "Kirim brief website ke GudangWeb",
+    "faqTitle": "FAQ Kontak dan Konsultasi",
+    "faqDescription": "Pertanyaan umum sebelum menghubungi GudangWeb untuk konsultasi website dan SEO.",
+    "faq": [
+      {
+        "question": "Informasi apa yang perlu dikirim saat konsultasi?",
+        "answer": "Kirim jenis bisnis, layanan utama, target area, contoh website referensi, jumlah halaman yang dibutuhkan, dan fitur tambahan seperti blog atau katalog."
+      },
+      {
+        "question": "Apakah bisa konsultasi lewat WhatsApp?",
+        "answer": "Bisa. Tombol WhatsApp tersedia di header, CTA, footer, dan tombol melayang kanan bawah agar pengunjung mudah menghubungi tim GudangWeb."
+      },
+      {
+        "question": "Apakah GudangWeb menerima pengembangan bertahap?",
+        "answer": "Ya. Website bisa dimulai dari halaman dasar lalu dikembangkan dengan artikel, halaman layanan tambahan, media, FAQ, dan optimasi SEO."
+      }
+    ]
+  },
+  "blogSidebar": {
+    "title": "Layanan GudangWeb",
+    "intro": "Butuh bantuan membuat website atau mengembangkan SEO? Pilih layanan berikut untuk konsultasi.",
+    "services": [
+      {
+        "label": "Pembuatan Website Company Profile",
+        "url": "/layanan/"
+      },
+      {
+        "label": "Jasa SEO Website",
+        "url": "/layanan/"
+      },
+      {
+        "label": "Landing Page Promosi",
+        "url": "/layanan/"
+      },
+      {
+        "label": "CMS Berbasis GitHub",
+        "url": "/layanan/"
+      }
+    ],
+    "contactTitle": "Konsultasi Gratis",
+    "contactText": "Ceritakan kebutuhan website Anda dan dapatkan arahan struktur halaman yang tepat.",
+    "button": "Chat WhatsApp"
+  },
+  "blogPage": {
+    "eyebrow": "Blog GudangWeb",
+    "title": "Artikel Website, SEO, dan Digital Marketing",
+    "description": "Kumpulan artikel untuk membantu bisnis memahami website, konten, SEO, dan strategi online.",
+    "backgroundImage": "/public/images/gudangweb-blog-hero.svg",
+    "image": "/public/images/gudangweb-blog-photo.svg",
+    "imageAlt": "Artikel dan insight digital GudangWeb",
+    "faqTitle": "FAQ Blog Website dan SEO",
+    "faqDescription": "Pertanyaan umum seputar artikel blog, konten SEO, dan penggunaan blog untuk website bisnis.",
+    "faq": [
+      {
+        "question": "Untuk apa fitur blog di website company profile?",
+        "answer": "Blog membantu menjawab pertanyaan calon pelanggan, membangun topical authority, dan memberi ruang untuk konten SEO yang relevan dengan layanan bisnis."
+      },
+      {
+        "question": "Apakah setiap artikel bisa memiliki FAQ sendiri?",
+        "answer": "Bisa. Setiap artikel memiliki pengaturan FAQ di editor artikel dan schema FAQ hanya dibuat jika pertanyaan serta jawaban lengkap tersedia."
+      },
+      {
+        "question": "Apakah slug artikel bisa langsung di root domain?",
+        "answer": "Bisa. Artikel dibuat dengan URL langsung seperti /jasa-pembuatan-website-company-profile/ agar lebih ringkas dan mudah dibaca."
+      }
+    ]
+  },
+  "floatingWhatsapp": {
+    "enabled": "true",
+    "label": "Chat WhatsApp",
+    "message": "Halo GudangWeb, saya ingin konsultasi pembuatan website dan SEO."
+  }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Ikon SEO Growth</title>
+  <desc id="desc">Grafik pertumbuhan dan target SEO</desc>
+  <defs>
+    <linearGradient id="g" x1="20" y1="140" x2="140" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#155EEF"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="124" height="124" rx="34" fill="#EFF6FF"/>
+  <path d="M43 104h74" stroke="#155EEF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M50 96l22-24 18 15 27-35" fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="117" cy="52" r="13" fill="#155EEF" opacity=".14"/>
+  <circle cx="117" cy="52" r="6" fill="#155EEF"/>
+</svg>
